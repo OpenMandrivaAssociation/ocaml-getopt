@@ -1,13 +1,13 @@
 Name:           ocaml-getopt
 Version:        20040811
-Release:        %mkrel 1
+Release:        2
 Summary:        Command line parsing a la GNU getopt
 License:        MIT-like
 Group:          Development/Other
 URL:            http://alain.frisch.fr/soft#Getopt
 Source0:        http://alain.frisch.fr/info/getopt-20040811.tar.gz
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 BuildRequires:  ocaml-findlib
+BuildRequires:  ocaml
 
 %description
 The OCaml distribution comes with the module Arg specialized in
@@ -64,4 +64,11 @@ rm -rf %{buildroot}
 %{_libdir}/ocaml/getopt/*.cmxa
 %{_libdir}/ocaml/getopt/*.mli
 %{_libdir}/ocaml/getopt/*.o
+
+
+
+%changelog
+* Fri Sep 11 2009 Florent Monnier <blue_prawn@mandriva.org> 20040811-1mdv2010.0
++ Revision: 438504
+- import ocaml-getopt
 
