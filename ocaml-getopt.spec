@@ -4,7 +4,7 @@
 Summary:	Command line parsing a la GNU getopt
 Name:		ocaml-getopt
 Version:	20120615
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Other
 Url:		http://forge.ocamlcore.org/projects/ocaml-getopt/
