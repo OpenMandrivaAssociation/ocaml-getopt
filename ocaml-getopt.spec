@@ -7,7 +7,7 @@ Version:	20120615
 Release:	2
 License:	MIT
 Group:		Development/Other
-Url:		http://forge.ocamlcore.org/projects/ocaml-getopt/
+Url:		https://forge.ocamlcore.org/projects/ocaml-getopt/
 Source0:	http://forge.ocamlcore.org/frs/download.php/896/ocaml-getopt-%{version}.tar.gz
 BuildRequires:	ocaml
 BuildRequires:	ocaml-findlib
