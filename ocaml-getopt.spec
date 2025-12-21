@@ -9,6 +9,11 @@ License:	MIT
 Group:		Development/Other
 Url:		https://forge.ocamlcore.org/projects/ocaml-getopt/
 Source0:	http://forge.ocamlcore.org/frs/download.php/896/ocaml-getopt-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	ocaml
 BuildRequires:	ocaml-findlib
 
